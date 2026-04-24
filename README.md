@@ -3,8 +3,7 @@
 A client-side calculator designed to decode standard 3.7V Lithium Polymer pouch cell codes and verify their actual capacity against manufacturer claims.
 
 ## Live Demo
-[View the Calculator](https://yourusername.github.io/lipo-decoder/)
-*(Note: Update the URL once hosted on GitHub Pages)*
+[View the Calculator](https://zappedxd.github.io/lipo-battery-decoder/)
 
 ## Motivation
 The primary motivation for this tool is the prevalence of exaggerated capacity claims printed on generic lithium polymer batteries. When designing embedded power systems, relying on unverified manufacturer specifications can lead to severe miscalculations in runtime and mass budgets. Because physical volume strictly dictates the maximum chemical energy a pouch cell can hold, these false claims can be mathematically disproven. This calculator automates the process of deriving realistic capacity bounds based on actual physical dimensions and established volumetric energy density limits (Wh/L).
